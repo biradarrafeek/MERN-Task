@@ -1,3 +1,18 @@
+# Task Management Application
+
+The Task Management Application is a comprehensive tool designed to help users efficiently handle their tasks. Built using __React__ for the frontend, **Node.js and Express** for the backend, and MongoDB for the database, it allows users to **create, read, update, and delete** tasks. Each task includes a title, description, status, and due date, and the application features sorting and filtering options to enhance usability.
+
+On the frontend, the TaskForm.js component provides a form for both creating and updating tasks, with responsive design achieved using **Tailwind CSS**. The form uses useNavigate for navigation after submission and dynamically adjusts based on whether an ID is provided. The TaskDetailView.js component displays detailed information about a selected task and allows for editing, while the TaskListView.js component lists all tasks with options to **filter** and **sort** them, and includes functionalities for creating, updating, and deleting tasks.
+
+For the backend, the application utilizes Node.js and Express to create a **RESTful API**. The API includes endpoints for **fetching** all tasks, retrieving a specific task by ID, creating new tasks, updating existing ones, and deleting tasks. It features robust input validation and error handling to ensure reliable operations.
+
+The MongoDB database, managed using **Mongoose** for object data modeling, stores tasks with fields for title, description, status, and due date, providing a structured approach to data management.
+
+This setup results in a responsive, feature-rich task management tool that efficiently handles user tasks and provides a smooth user experience.
+
+
+================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
