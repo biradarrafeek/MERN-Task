@@ -10,6 +10,8 @@ The MongoDB database, managed using **Mongoose** for object data modeling, store
 
 This setup results in a responsive, feature-rich task management tool that efficiently handles user tasks and provides a smooth user experience.
 
+# Live
+https://glistening-bavarois-dbba57.netlify.app/
 
 ================================================
 
